@@ -12,6 +12,11 @@ html, body{
     padding: 0;
     overflow-x: hidden;
 }
+
+.wrapper{
+    overflow-x: hidden;
+}
+
 .title{
 color: white;
 font-size: 50px;
