@@ -13,11 +13,6 @@ html, body{
     overflow-x: hidden;
 }
 
-html{
-    overflow: hidden;
-    position: relative;
-}
-
 .title{
 color: white;
 font-size: 50px;
