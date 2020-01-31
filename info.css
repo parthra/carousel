@@ -8,28 +8,23 @@
 }
 
 #title{
-color: pink;
-font-size: 75px;
+color: salmon;
+font-size: 125px;
 font-family: 'FSEX300';
-text-shadow:
-2px 2px 0 black,
-2px -2px 0 black,
--2px -2px 0 black,
--2px 2px 0 black;
-letter-spacing: 5px;
+letter-spacing: 0px;
+text-shadow: 4px 0 black, 0 4px black, -4px 0 black, 0 -4px black;
 text-align: center;
 position: relative;
-top:100px;
+top: 200px;
 z-index: 1;
-opacity: 75%;
+opacity: 85%;
 }
 
 .carousel{
     position: relative;
-    height: 700px;
+    height: 650px;
     max-width: 100%;
     margin: 0 auto;
-    object-fit: scale-down; max-height: 50%
 }
 
 .carousel_image{
@@ -107,3 +102,54 @@ opacity: 75%;
 }
 
 .is-hidden { display: none;}
+
+.introduction{
+    position: relative;
+    max-height: 200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.introduction_container {
+    position: relative;
+    background: salmon;
+}
+
+.intro-text{
+    font-family: 'FSEX300';
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.information{
+    position: relative;
+    width: 50%;
+}
+
+.information_container{
+    position: relative;
+    background: transparent;
+    padding-left: 25%;
+}
+
+.info-title{
+    font-family: 'FSEX300';
+    font-size: 45px;
+    color: white;
+}
+
+.info-text{
+    font-family: 'FSEX300';
+    font-size: 30px;
+    color: white;
+    width: 100%
+}
+
+.map-position{
+    position: relative;
+    left: 57%;
+    top: -90px;
+    z-index: 2;
+}
